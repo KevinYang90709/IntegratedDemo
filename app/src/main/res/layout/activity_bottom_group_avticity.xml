@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_bottom_group_avticity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <!-- This could be your fragment container, or something -->
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <!--radioGroup-->
+    <RadioGroup
+        android:background="#D32F2F"
+        android:id="@+id/content_rg"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/content_rb_home"
+            style="@style/style_content_rb"
+            android:drawableTop="@drawable/cat_lovely_48px"
+            android:text="一只"/>
+
+        <RadioButton
+            android:id="@+id/content_rb_tweet"
+            style="@style/style_content_rb"
+            android:drawableTop="@drawable/cat_lovely_48px"
+            android:text="二只"/>
+
+        <RadioButton
+            android:id="@+id/content_rb_quickoption"
+            style="@style/style_content_rb"
+            android:drawableTop="@drawable/btn_quickoption_selector"
+            />
+
+        <RadioButton
+            android:id="@+id/content_rb_explore"
+            style="@style/style_content_rb"
+            android:drawableTop="@drawable/cat_lovely_48px"
+            android:text="三只"/>
+
+        <RadioButton
+            android:id="@+id/content_rb_me"
+            style="@style/style_content_rb"
+            android:drawableTop="@drawable/cat_lovely_48px"
+            android:text="四只"/>
+
+    </RadioGroup>
+
+</LinearLayout>

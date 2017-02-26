@@ -11,8 +11,8 @@ import com.kevinyang.integrateddemo.R;
 import com.kevinyang.integrateddemo.adapter.SynthesizeAdapter;
 import com.kevinyang.integrateddemo.base.BaseFragment;
 import com.kevinyang.integrateddemo.bean.SynthesizeBean;
+import com.kevinyang.integrateddemo.ui.activity.BottomGroupAvticity;
 import com.kevinyang.integrateddemo.ui.activity.BottomNavigationAvtivity;
-import com.kevinyang.integrateddemo.ui.activity.TestActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -61,7 +61,7 @@ public class SynthesizeFrament extends BaseFragment  {
         super.initData();
         mDataList = new ArrayList<>();
         mDataList.add(new SynthesizeBean(R.drawable.dog,"FragmentTabHost+Viewpager","实现底部导航栏", BottomNavigationAvtivity.class));
-        mDataList.add(new SynthesizeBean(R.drawable.cat_lovely,"RadioGroup+FrameLayout","实现底部导航栏,懒加载", TestActivity.class));
+        mDataList.add(new SynthesizeBean(R.drawable.cat_lovely,"RadioGroup+FrameLayout","实现底部导航栏", BottomGroupAvticity.class));
     }
 
     

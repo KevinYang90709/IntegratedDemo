@@ -31,7 +31,7 @@ public class TestFrament extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         TextView view = new TextView(getContext());
         view.setGravity(Gravity.CENTER);
-        view.setText(mArgs);
+        view.setText("页面");
         return view;
     }
 }

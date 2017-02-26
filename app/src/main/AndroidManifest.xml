@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".ui.activity.TestActivity"/>
         <activity android:name=".ui.activity.BottomNavigationAvtivity"/>
+        <activity android:name=".ui.activity.BottomGroupAvticity">
+        </activity>
     </application>
 
 </manifest>
